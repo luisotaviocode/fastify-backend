@@ -1,0 +1,27 @@
+POST http://localhost:3333/courses
+Content-Type: application/json
+
+{
+    "nomeCurso": "Curso Completo de Node.JS",
+    "descricao": "Um curso completo de Node.JS para aplicações Back-End com Fastify",
+    "valorEmReais": 34.98
+}
+
+###
+
+GET http://localhost:3333/courses
+
+###
+
+PUT http://localhost:3333/courses/update/0787abf8-f7dc-4977-9f3d-7ad50df50821
+Content-Type: application/json
+
+{
+    "nomeCurso": "Curso Avançado de Node.JS",
+    "descricao": "Um curso completo do básico ao avançado de Node.JS para aplicações Back-End com Fastify",
+    "valorEmReais": 39.99
+}
+
+###
+
+DELETE http://localhost:3333/courses/delete/ad08fd73-ff39-48c3-8b59-116038814a90

@@ -1,0 +1,22 @@
+{
+  "name": "fastify-backend",
+  "version": "1.2.0",
+  "description": "Um projeto Back-End com Node.js + Fastify",
+  "type": "module",
+  "main": "server.js",
+  "dependencies": {
+    "fastify": "^5.8.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch --no-warnings server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Fastify",
+    "Back-End"
+  ],
+  "author": "Luis Otávio Barreto Dantas",
+  "license": "ISC"
+}
